@@ -65,7 +65,7 @@ namespace LlamaLibrary.Retainers
         internal static class RetainerTaskStrings
         {
             //For partial string searches use SelectIconString.ClickLineContains(string) and not Equals
-#if RB_CN
+// #if RB_CN
 			internal static string Inventory = "道具管理";
             internal static string Gil = "金币管理";
             internal static string SellYourInventory = "出售（玩家所持物品）";
@@ -76,18 +76,18 @@ namespace LlamaLibrary.Retainers
             internal static string ViewGear = "设置雇员装备";
             internal static string ResetClass = "设置雇员职业"; //Use Partial Search
             internal static string Quit = "让雇员返回";
-#else
-            internal static string Inventory = "Entrust or withdraw items.";
-            internal static string Gil = "Entrust or withdraw gil.";
-            internal static string SellYourInventory = "Sell items in your inventory on the market";
-            internal static string SellRetainerInventory = "Sell items in your retainer's inventory on the market.";
-            internal static string SaleHistory = "View sale history.";
-            internal static string ViewVentureReport = "View venture report."; //Use Partial Search
-            internal static string AssignVenture = "Assign venture."; //Use Partial Search since it adds (Complete) or (In Progress)
-            internal static string ViewGear = "View retainer attributes and gear.";
-            internal static string ResetClass = "Reset retainer class."; //Use Partial Search
-            internal static string Quit = "Quit.";
-#endif
+// #else
+//             internal static string Inventory = "Entrust or withdraw items.";
+//             internal static string Gil = "Entrust or withdraw gil.";
+//             internal static string SellYourInventory = "Sell items in your inventory on the market";
+//             internal static string SellRetainerInventory = "Sell items in your retainer's inventory on the market.";
+//             internal static string SaleHistory = "View sale history.";
+//             internal static string ViewVentureReport = "View venture report."; //Use Partial Search
+//             internal static string AssignVenture = "Assign venture."; //Use Partial Search since it adds (Complete) or (In Progress)
+//             internal static string ViewGear = "View retainer attributes and gear.";
+//             internal static string ResetClass = "Reset retainer class."; //Use Partial Search
+//             internal static string Quit = "Quit.";
+// #endif
         }
     }
 }
